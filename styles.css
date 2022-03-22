@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    background-image: url("assets/background.png");
+}
+
+#navigation-bar {
+    background-color: #333333;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px 10%;
+    overflow: hidden;
+}
+
+li img {
+    float: left;
+    margin: 0px;
+    padding: 12px 0px 0px;
+}
+
+li a {
+    display: block;
+    text-transform: uppercase;
+    float: right;
+    color: #ff0099;
+    text-align: center;
+    padding: 20px 16px;
+    
+}
+
+a:hover {
+    background-color: #ff0099;
+    color: #333333;
+}
+
+#separator {
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+#content {
+    margin: 60px 10%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#color {
+    color: #ff0099;
+}
+p {
+    font-size: 18px;  
+}
